@@ -1,0 +1,57 @@
+
+<html>
+<head></head>
+<body>
+<canvas id="myCanvas" width="500" height="500"></canvas>
+<script>
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#7D3B3C";
+    //(x,y,width,height)
+    
+    ctx.fillStyle = "#EC9B03";
+    ctx.fillRect(0,0,250,250);
+    
+    ctx.fillStyle = "#E07C00";
+    ctx.fillRect(250,0,250,250);
+    
+    ctx.fillStyle = "#E1C001";
+    ctx.fillRect(0,250,250,250);
+    
+    ctx.fillStyle = "#DED20C";
+    ctx.fillRect(250,250,250,250);
+
+    ctx.beginPath();
+    ctx.moveTo(250,250);
+    ctx.lineTo(500,290);
+    ctx.lineTo(500,250);
+    ctx.fillStyle = "#302C29";
+    ctx.fill();
+
+        ctx.beginPath();
+    ctx.moveTo(250,250);
+    ctx.lineTo(210,500);
+    ctx.lineTo(250,500);
+    ctx.fillStyle = "#302C29";
+    ctx.fill();
+    
+        ctx.beginPath();
+    ctx.moveTo(250,250);
+    ctx.lineTo(290,0);
+    ctx.lineTo(250,0);
+    ctx.fillStyle = "#302C29";
+    ctx.fill();
+    
+        ctx.beginPath();
+    ctx.moveTo(250,250);
+    ctx.lineTo(0,210);
+    ctx.lineTo(0,250);
+    ctx.fillStyle = "#302C29";
+    ctx.fill();
+    
+   // ctx.fillRect(0,0,300,300);
+
+    
+</script>
+</body>
+</html>
