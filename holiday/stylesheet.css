@@ -1,0 +1,36 @@
+body {
+	padding-left: 20px;
+	padding-right: 20px;
+    background-image: url("fallingSnow.gif");
+
+}
+
+#photoWrapper {
+	width: 50%;
+	margin-left: 25%;
+	border: 7px solid #E2E1E9;
+
+}
+#thePhoto {
+	width: 100%;
+}
+button {
+	background-color: #F00807;
+	color: white;
+}
+#forwardBtn {
+	position: static;
+	float: right;
+}
+.centerMe {
+	text-align: center;
+}
+h1 {
+font-family: 'Handlee', cursive;
+}
+#piechart {
+    margin-left: 25%;
+    
+}
+
+
